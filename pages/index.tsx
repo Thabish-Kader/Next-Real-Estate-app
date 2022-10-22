@@ -4,7 +4,6 @@ import { Data } from "../data";
 import { Available } from "./components/Available";
 import { Contact } from "./components/Contact";
 import { Hero } from "./components/Hero";
-import { Navbar } from "./components/Navbar";
 import { Properties } from "./components/Properties";
 
 const Home: NextPage = () => {
@@ -19,12 +18,8 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
-				<link
-					href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
-					rel="stylesheet"
-				/>
 			</Head>
-			<Navbar />
+
 			<Hero
 				heading="Find your dream propertys"
 				message="Ninety percent of all millionares become so through

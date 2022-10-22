@@ -6,7 +6,6 @@ html {
 	scroll-behavior: smooth;
 	font-family: "Inconsolata", sans-serif;
 }
-
 .hero-img {
 	background-image: url("https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
 }
