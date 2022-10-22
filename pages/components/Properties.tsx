@@ -19,7 +19,7 @@ export const Properties = ({ data }: IPropertiesProps) => {
 	}
 
 	return (
-		<section id="properties" className="mx-auto mb-10 max-w-[1240px]">
+		<section id="properties" className="m-10 mx-auto max-w-[1240px]">
 			<h1 className="text-center text-4xl font-bold uppercase">
 				Properties
 			</h1>

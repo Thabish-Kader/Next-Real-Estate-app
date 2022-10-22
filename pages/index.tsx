@@ -25,7 +25,11 @@ const Home: NextPage = () => {
 				/>
 			</Head>
 			<Navbar />
-			<Hero />
+			<Hero
+				heading="Find your dream propertys"
+				message="Ninety percent of all millionares become so through
+						owning real estates"
+			/>
 			<Properties data={Data} />
 			<Available />
 			<Contact />

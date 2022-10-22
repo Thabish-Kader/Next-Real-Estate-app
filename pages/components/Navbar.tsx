@@ -52,6 +52,9 @@ export const Navbar = () => {
 					<li className="p-4">
 						<Link href="/#contact">Contact</Link>
 					</li>
+					<li className="p-4">
+						<Link href="/about">About Us</Link>
+					</li>
 				</ul>
 
 				{/* Mobile button Links */}
@@ -105,6 +108,12 @@ export const Navbar = () => {
 							className="p-4 text-4xl hover:text-gray-500"
 						>
 							<Link href="/#contact">Contact Info</Link>
+						</li>
+						<li
+							onClick={() => setNav(!nav)}
+							className="p-4 text-4xl hover:text-gray-500"
+						>
+							<Link href="/about">About Us</Link>
 						</li>
 					</ul>
 				</div>
