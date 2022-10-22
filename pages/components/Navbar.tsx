@@ -47,10 +47,10 @@ export const Navbar = () => {
 						<Link href="/#properties">Properties</Link>
 					</li>
 					<li className="p-4">
-						<Link href="/available">Availaible</Link>
+						<Link href="/#available">Availaible</Link>
 					</li>
 					<li className="p-4">
-						<Link href="/contact">Contact</Link>
+						<Link href="/#contact">Contact</Link>
 					</li>
 				</ul>
 
@@ -98,13 +98,13 @@ export const Navbar = () => {
 							onClick={() => setNav(!nav)}
 							className="p-4 text-4xl hover:text-gray-500"
 						>
-							<Link href="/available">Available</Link>
+							<Link href="/#available">Available</Link>
 						</li>
 						<li
 							onClick={() => setNav(!nav)}
 							className="p-4 text-4xl hover:text-gray-500"
 						>
-							<Link href="/contact">Contact Info</Link>
+							<Link href="/#contact">Contact Info</Link>
 						</li>
 					</ul>
 				</div>

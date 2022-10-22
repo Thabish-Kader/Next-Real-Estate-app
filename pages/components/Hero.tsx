@@ -2,7 +2,7 @@ import React from "react";
 
 export const Hero = () => {
 	return (
-		<section className="hero-img relative top-0 left-0 right-0 bottom-0 mb-14  h-screen w-full bg-cover bg-fixed bg-center bg-no-repeat">
+		<section className="hero-img relative top-0 left-0 right-0 bottom-0 mb-10  h-screen w-full bg-cover bg-fixed bg-center bg-no-repeat">
 			{/* overlay */}
 			<div className="absolute top-0 left-0 h-full w-full bg-black/60" />
 			{/* text */}
