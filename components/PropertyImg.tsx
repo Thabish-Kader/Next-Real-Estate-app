@@ -1,7 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import { IimageProps } from "../../interface/Interface";
+import { IimageProps } from "../interface/Interface";
 import { BsFillHouseDoorFill } from "react-icons/bs";
+
 export const PropertyImg = ({ property }: IimageProps) => {
 	return (
 		<div className="relative">

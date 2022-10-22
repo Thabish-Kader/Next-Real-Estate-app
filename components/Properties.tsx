@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { BsCaretLeftFill, BsCaretRightFill } from "react-icons/bs";
-import { IPropertiesProps } from "../../interface/Interface";
+import { IPropertiesProps } from "../interface/Interface";
 
 export const Properties = ({ data }: IPropertiesProps) => {
 	const [current, setCurrent] = useState<number>(0);

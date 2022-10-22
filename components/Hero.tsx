@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { IHero } from "../../interface/Interface";
+import { IHero } from "../interface/Interface";
 
 export const Hero = ({ heading, message }: IHero) => {
 	return (

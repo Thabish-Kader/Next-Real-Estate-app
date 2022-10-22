@@ -1,11 +1,11 @@
 import React from "react";
-import img from "../../public/assets/img.avif";
-import img2 from "../../public/assets/img2.avif";
-import img3 from "../../public/assets/img3.avif";
-import img4 from "../../public/assets/img4.avif";
-import img5 from "../../public/assets/img5.avif";
-import img6 from "../../public/assets/img6.avif";
-import img7 from "../../public/assets/img7.avif";
+import img from "../public/assets/img.avif";
+import img2 from "../public/assets/img2.avif";
+import img3 from "../public/assets/img3.avif";
+import img4 from "../public/assets/img4.avif";
+import img5 from "../public/assets/img5.avif";
+import img6 from "../public/assets/img6.avif";
+import img7 from "../public/assets/img7.avif";
 import { PropertyImg } from "./PropertyImg";
 
 export const Available = () => {

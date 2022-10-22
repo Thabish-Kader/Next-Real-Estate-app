@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { Data } from "../data";
-import { Available } from "./components/Available";
-import { Contact } from "./components/Contact";
-import { Hero } from "./components/Hero";
-import { Properties } from "./components/Properties";
+import { Available } from "../components/Available";
+import { Contact } from "../components/Contact";
+import { Hero } from "../components/Hero";
+import { Properties } from "../components/Properties";
 
 const Home: NextPage = () => {
 	return (
