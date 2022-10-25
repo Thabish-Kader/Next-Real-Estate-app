@@ -41,16 +41,16 @@ export const Navbar = () => {
 					className="text-l hidden sm:flex"
 				>
 					<li className="p-4">
-						<a href="/#">Home</a>
+						<Link href="/">Home</Link>
 					</li>
 					<li className="p-4">
-						<a href="/#properties">Properties</a>
+						<Link href="/#properties">Properties</Link>
 					</li>
 					<li className="p-4">
-						<a href="/#available">Availaible</a>
+						<Link href="/#available">Availaible</Link>
 					</li>
 					<li className="p-4">
-						<a href="/#contact">Contact</a>
+						<Link href="/#contact">Contact</Link>
 					</li>
 					<li className="p-4">
 						<Link href="/about">About Us</Link>
